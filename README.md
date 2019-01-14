@@ -5,12 +5,9 @@ Projeto simples destinado a orientar os estudantes a criarem um simples aplicati
 Este aplicativo apenas escreve na saída padrão **stdout** uma simples mensagem.
 
 ### Árvore de arquivos do projeto:
-+ hellomake
-
-  | hellomake.c
-  
-  | hellomake.h
-  
-  | Makefile
++ hellomake<br/>
+  | hellomake.c<br/>
+  | hellomake.h<br/>
+  | Makefile<br/>
   
   
