@@ -6,7 +6,11 @@ Este aplicativo apenas escreve na saída padrão **stdout** uma simples mensagem
 
 ### Árvore de arquivos do projeto:
 + hellomake
+
   | hellomake.c
+  
   | hellomake.h
+  
   | Makefile
+  
   
