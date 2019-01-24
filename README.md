@@ -35,13 +35,18 @@ Considerando que você, utilizando o console de comandos do linux, esteja dentro
 ---
 
 ### Arquivo de receita **hellomake_1.0.bb**
+#### do_install()
+Esta tarefa será executada no momento da instalação do nosso software **Hellomake** no *Sistema de Arquivo Principal* do sistema, o **rootfs**.
+Então, o *OpenEmbedded Build Sistem* irá instalar o nosso executável em ***/usr/bin/hellomake*** através do comando:<br/> 
+`$ oe_runmake install DESTDIR=${D} BINDIR=${bindir} SBINDIR=${sbindir} MANDIR=${mandir} INCLUDEDIR=${includedir}`.<br/>
+Com isso, o nosso software estará pronto para ser utilizado.
 
 
 ---
 
 
 Para clonar o repositório basta executar o seguinte comando:
-`$ git clone https://github.com/tsrrocha/hellomake.git`
+`$ git clone https://github.com/tsrrocha/hellomake.goe_runmake install DESTDIR=${D} BINDIR=${bindir} SBINDIR=${sbindir} MANDIR=${mandir} INCLUDEDIR=${includedir}oe_runmake install DESTDIR=${D} BINDIR=${bindir} SBINDIR=${sbindir} MANDIR=${mandir} INCLUDEDIR=${includedir}oe_runmake install DESTDIR=${D} BINDIR=${bindir} SBINDIR=${sbindir} MANDIR=${mandir} INCLUDEDIR=${includedir}oe_runmake install DESTDIR=${D} BINDIR=${bindir} SBINDIR=${sbindir} MANDIR=${mandir} INCLUDEDIR=${includedir}it`
 
 ---
 
