@@ -1,7 +1,7 @@
 # hellomake
 Projeto simples destinado a orientar os estudantes do curso de **Introdução ao Desenvolvimento para Linux Embarcado usando o Yocto Project** a criarem uma receita de um simples aplicativo, fazer a compilação através da ferramenta *make*, e instalação em uma distribuição customizada para linux embarcado utilizando o *Yocto Project*.
 
-Este projeto é uma receita (recipes) de software a ser utilizado pelo Yocto Project, Ele contem o arquivo *metadata* **hellomake_1.0.bb** de receita para o *OpenEmbedded Build System* construir o pacote de software e instalá-lo na distribuição customizada do linux embarcado.
+Este projeto é uma receita (recipes) de software a ser utilizado pelo Yocto Project. Ele contem o arquivo *metadata* **hellomake_1.0.bb** de receita, com as informações necessárias para o *OpenEmbedded Build System* construir o pacote de software e instalá-lo na distribuição customizada para linux embarcado.
 
 ---
 
@@ -23,3 +23,27 @@ Este aplicativo apenas escreve na saída padrão **stdout** uma simples mensagem
   
   ---
   
+### Como gerar o código-fonte compactado?
+Considerando que você, utilizando o console de comandos do linux, esteja dentro da pasta raiz do projeto: *hellomake*, execute os seguintes comandos (sem o carácter "**$**" ) para compactar o código-fonte que será utilizado pela receita ***hello_1.0.bb***.
+
+`$ rm -f ./hellomake-1.0/hellomake-1.0.tar.gz` <br/>
+`$ tar -czf hellomake-1.0.tar.gz ./hellomake-1.0`<br/>
+`$ mv ./hellomake-1.0.tar.gz ./hellomake-1.0/`<br/>
+
+**Observação:** Sempre que você alterar qualquer informação nos arquivos do projeto você deverá recompactar o código-fonte utilizando os comandos acima.
+
+---
+
+### Arquivo de receita **hellomake_1.0.bb**
+
+
+---
+
+
+Para clonar o repositório basta executar o seguinte comando:
+`$ git clone https://github.com/tsrrocha/hellomake.git`
+
+---
+
+Desenvolvedor: **Tiago Sousa Rocha** < <tsrrocha@gmail.com> > <br/>
+Whatsapp: **(83) 9 8111-5793**
